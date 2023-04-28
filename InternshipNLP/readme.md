@@ -4,3 +4,7 @@ The Whisper OpenAI speech to text model is specifically designed to recognize an
 
 NLU model:
 For the intent and entity classification, SpaCy is used. Spacy's entity recognition is a natural language processing (NLP) technique that identifies and extracts named entities, such as people, organizations, locations, and other specific information, from text. It uses machine learning algorithms to analyze the linguistic features of a text and classify it into predefined categories. To tailor our own enities enitity ruler was used.
+
+Dependencies:
+1. en_core_web_lg and transformers needs to be installed.
+2. The environment should be on a cuda device.
